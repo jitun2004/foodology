@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <title>FoodOLogy</title>
+            <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+        </head>
+        <body STYLE="background: url(img/fresh.jpg) no-repeat 4px -390px #FFFFFF;">
+            <img src="https://innerweb.novell.com/commander/jsp/CommanderProcessor.jsp?data=%3Crequest%3E%3Cparam%3Eaction=addFavorite%3C/param%3E%3Cparam%3ELINKID=LNK-2725%3C/param%3E%3Cparam%3ECATID=%3C/param%3E%3Cparam%3EORDERID=0%3C/param%3E%3Cparam%3EHLOC=%3C/param%3E%3C/request%3E">
+            <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="brand">Food<b style=color:red;>O</b>Logy</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="action.php">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right" name="login" method="POST" action="login.php">
+              <input type="text" placeholder="Username" class="span2" name="uname">
+              <input type="password" placeholder="Password" class="span2" name="password">
+              <button class="btn" type="submit">Sign in</button>
+            </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+            <form class="well span4" name="signup" method="POST" action="signup.php" style="padding-top: 19px; margin-top: 53px; margin-left: 920px; margin-right: 0px;">
+                <div id="signup-holder" style="margin-left: 36px;">
+                    <label>Username</label>
+                    <input type="text" class="span3" placeholder="Enter Username" name="uname" /><br/>
+                    <label>Password</label>
+                    <input type="password" class="span3" placeholder="Enter Password" name="repassword" /><br/>
+                    <label>Re-Enter Password</label>
+                    <input type="password" class="span3" placeholder="Re-Enter Password" name="repassword" /><br/>
+                    <button class="btn btn-primary">Sign Up</button>
+                    <button class="btn">Clear</button>
+                </div>
+            </form>
+            
+            <script src="js/bootstrap.js"></script>
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap-dropdown.js"></script>
+        </body>
+    </html>
